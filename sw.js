@@ -2,7 +2,7 @@ var __wpo = {
   "assets": {
     "main": [
       "./favicon.ico",
-      "./runtime.5eabeef173fbf6e0e2e9.js",
+      "./runtime.4674a3a11062cd18826f.js",
       "./"
     ],
     "additional": [
@@ -11,7 +11,7 @@ var __wpo = {
       "./npm.babel-runtime.a63b756cf9e7882bc56b.chunk.js",
       "./npm.intl.e5a558b804da350e1995.chunk.js",
       "./npm.lodash.73cd6bb09f261d11d0e0.chunk.js",
-      "./main.f440660d25f19b52b944.chunk.js",
+      "./main.33219a5edda4d3d503f1.chunk.js",
       "./npm.babel.ef283b28031da49f670a.chunk.js",
       "./npm.core-js.fe8ea54c80fa66551cd3.chunk.js",
       "./npm.rc-field-form.df59e4da43dbe88fbf29.chunk.js",
@@ -30,20 +30,20 @@ var __wpo = {
     "45bfaea6802203392cc8b785ed5899efbef97ea9": "./npm.babel-runtime.a63b756cf9e7882bc56b.chunk.js",
     "9a41806498ba359641b81031a462733840633b8d": "./npm.intl.e5a558b804da350e1995.chunk.js",
     "c6f865af9e2b91e16e45ca4652bed5344409df7f": "./npm.lodash.73cd6bb09f261d11d0e0.chunk.js",
-    "538a96c7a97c0db92897c4925945ce706a160ac6": "./main.f440660d25f19b52b944.chunk.js",
+    "6108a3d7e920a5b39b79e8fce79a9297db510236": "./main.33219a5edda4d3d503f1.chunk.js",
     "4a8d79beedf7545441be0988b53b2b0303a37c86": "./npm.babel.ef283b28031da49f670a.chunk.js",
     "5b5eb71d3f1f91f175fbc6e50162afae8caf7898": "./npm.core-js.fe8ea54c80fa66551cd3.chunk.js",
     "d9eb6b5906b33651f500d8677046e6c1f956327d": "./npm.rc-field-form.df59e4da43dbe88fbf29.chunk.js",
     "84509fd8837e4fba4c96f8c86d699d5aa6b2dedb": "./npm.react-redux.66e7aaed67e378f9cae6.chunk.js",
     "153a8cb5dfae3be8c4962e9ef33d5943e685ad38": "./npm.reduxsauce.a41dfe0fc7e203e00aea.chunk.js",
-    "8393698cdac12b4dd87c81a0bb5f326faed46aea": "./runtime.5eabeef173fbf6e0e2e9.js",
+    "56ad61a81f4f5d7c790d85b07b0d943ed2c6a257": "./runtime.4674a3a11062cd18826f.js",
     "e22062709a1fb4a18dadc18e614f922aaf6a5ee6": "./12.89cc2756203c47b103ae.chunk.js",
     "721ff101bd15f919fa33cdefdb9d24c2dac0a502": "./13.07a842cc6d2b2f90f85d.chunk.js",
-    "387805bf807f01ff30bc7dbc26fe5c1bec2854bb": "./"
+    "9559555164a27ba548ebbb469fa6d643a8cb2227": "./"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "8/23/2020, 1:43:26 AM",
+  "version": "8/23/2020, 2:07:59 AM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": true
@@ -128,7 +128,7 @@ var __wpo = {
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/react-template/";
+/******/ 	__webpack_require__.p = "/react-movies-list/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
