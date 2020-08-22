@@ -24,7 +24,7 @@ var __wpo = {
   },
   "externals": [],
   "hashesMap": {
-    "4065bde4accd464423ad33cecb2d281f1992df77": "./favicon.ico",
+    "94cda0ace1c758609308fa5468f1b1f3888cfd0f": "./favicon.ico",
     "2ca2eeec6e32527a65a26e12b33ebe1e8f47f4f7": "./npm.ant-design.f4f2fa22a5b937dc62df.chunk.js",
     "f62a4402c5e484986fc0cdd6962f392db476ae4c": "./npm.antd.2e3c5946e476defeb9f8.chunk.js",
     "45bfaea6802203392cc8b785ed5899efbef97ea9": "./npm.babel-runtime.a63b756cf9e7882bc56b.chunk.js",
@@ -39,11 +39,11 @@ var __wpo = {
     "56ad61a81f4f5d7c790d85b07b0d943ed2c6a257": "./runtime.4674a3a11062cd18826f.js",
     "e22062709a1fb4a18dadc18e614f922aaf6a5ee6": "./12.89cc2756203c47b103ae.chunk.js",
     "721ff101bd15f919fa33cdefdb9d24c2dac0a502": "./13.07a842cc6d2b2f90f85d.chunk.js",
-    "9559555164a27ba548ebbb469fa6d643a8cb2227": "./"
+    "84ec3a34ad63bb78033a98e300970049e94c5e0b": "./"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "8/23/2020, 2:07:59 AM",
+  "version": "8/23/2020, 2:21:08 AM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": true
