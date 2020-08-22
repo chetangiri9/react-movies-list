@@ -8,18 +8,15 @@
  */
 
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
-import map from 'lodash/map';
 import { compose } from 'redux';
 import { Layout } from 'antd';
-import { routeConfig } from '@app/routeConfig';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from '@app/global-styles';
 import { colors } from '@themes';
-import Header from '@components/Header';
-import For from '@components/For';
+import HomeContainer from '../HomeContainer/Loadable';
 
 const theme = {
   fg: colors.primary,
@@ -29,29 +26,8 @@ const theme = {
 export function App({ location }) {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
       <Layout.Content>
-        <For
-          ParentComponent={props => <Switch {...props} />}
-          of={map(Object.keys(routeConfig))}
-          renderItem={(routeKey, index) => {
-            const Component = routeConfig[routeKey].component;
-            return (
-              <Route
-                exact={routeConfig[routeKey].exact}
-                key={index}
-                path={routeConfig[routeKey].route}
-                render={props => {
-                  const updatedProps = {
-                    ...props,
-                    ...routeConfig[routeKey].props
-                  };
-                  return <Component {...updatedProps} />;
-                }}
-              />
-            );
-          }}
-        />
+        <Route exact={true} path="/" render={HomeContainer} />
         <GlobalStyle />
       </Layout.Content>
     </ThemeProvider>

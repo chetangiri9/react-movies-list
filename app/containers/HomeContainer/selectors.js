@@ -22,22 +22,22 @@ export const selectHomeContainer = () =>
     substate => substate
   );
 
-export const selectReposData = () =>
+export const selectMoviesData = () =>
   createSelector(
     selectHomeContainerDomain,
-    substate => get(substate, 'reposData', null)
+    substate => get(substate, 'moviesData', null)
   );
 
-export const selectReposError = () =>
+export const selectMoviesError = () =>
   createSelector(
     selectHomeContainerDomain,
-    substate => get(substate, 'reposError', null)
+    substate => get(substate, 'moviesError', null)
   );
 
-export const selectRepoName = () =>
+export const selectMovieName = () =>
   createSelector(
     selectHomeContainerDomain,
-    substate => get(substate, 'repoName', null)
+    substate => get(substate, 'movieName', null)
   );
 
 export default selectHomeContainer;

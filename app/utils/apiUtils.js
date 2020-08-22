@@ -3,19 +3,19 @@ import snakeCase from 'lodash/snakeCase';
 import camelCase from 'lodash/camelCase';
 import { mapKeysDeep } from './index';
 
-const { GITHUB_URL } = process.env;
+const { BASE_URL } = process.env;
 const apiClients = {
-  github: null,
+  sellgo: null,
   default: null
 };
-export const getApiClient = (type = 'github') => apiClients[type];
-export const generateApiClient = (type = 'github') => {
+export const getApiClient = (type = 'sellgo') => apiClients[type];
+export const generateApiClient = (type = 'sellgo') => {
   switch (type) {
-    case 'github':
-      apiClients[type] = createApiClientWithTransForm(GITHUB_URL);
+    case 'sellgo':
+      apiClients[type] = createApiClientWithTransForm(BASE_URL);
       return apiClients[type];
     default:
-      apiClients.default = createApiClientWithTransForm(GITHUB_URL);
+      apiClients.default = createApiClientWithTransForm(BASE_URL);
       return apiClients.default;
   }
 };
